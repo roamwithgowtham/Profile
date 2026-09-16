@@ -1,0 +1,11 @@
+# Generated files, local configuration, and test artifacts are not deployment inputs.
+node_modules/
+dist/
+dist-ssr/
+test-results/
+playwright-report/
+.vscode/
+*.log
+.env
+.env.*
+!.env.example
