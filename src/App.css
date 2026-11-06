@@ -996,6 +996,35 @@ h2 {
   color: var(--muted);
   line-height: 1.8;
 }
+.guide-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+  padding: 24px 28px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #f3f2eb;
+  transition: background 0.2s;
+}
+.guide-cta:hover {
+  background: #ece9dd;
+}
+.guide-cta strong {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+.guide-cta-sub {
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.guide-cta > svg {
+  flex-shrink: 0;
+  color: var(--orange);
+}
 .ride-stats {
   display: flex;
   flex-wrap: wrap;
@@ -1772,6 +1801,11 @@ h2 {
   }
   .ride-stats {
     gap: 18px 26px;
+  }
+  .guide-cta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
   }
   .contact-grid {
     gap: 40px;

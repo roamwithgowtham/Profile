@@ -644,6 +644,17 @@ function App() {
               ))}
             </div>
           </div>
+
+          <a className="guide-cta" href="/endurance-guide/">
+            <span>
+              <strong>Training & nutrition, mapped out.</strong>
+              <span className="guide-cta-sub">
+                Weekly schedules, race-day fuelling and a free calculator for
+                runners, cyclists and ultra athletes.
+              </span>
+            </span>
+            <ArrowUpRight size={19} />
+          </a>
         </section>
 
         <section id="about" className="about-section">
@@ -940,6 +951,11 @@ function App() {
                   >
                     <Users size={18} />
                     Instagram · Personal
+                    <ArrowUpRight size={13} />
+                  </a>
+                  <a href="/endurance-guide/">
+                    <Timer size={18} />
+                    Training & Nutrition Guide
                     <ArrowUpRight size={13} />
                   </a>
                 </div>
